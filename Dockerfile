@@ -7,7 +7,7 @@ RUN \
   pip install  mssql-scripter
 
 RUN  apt-get update
-RUN  apt-get install  -ylibunwind8
+RUN  apt-get install  -y libunwind8
 #sudo nano /etc/apt/sources.list
 #add deb http://security.ubuntu.com/ubuntu bionic-security main
 # Add the new repository line to sources.list
